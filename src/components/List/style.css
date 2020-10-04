@@ -1,0 +1,44 @@
+.list-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-inner-container {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.list-item {
+    width: 500px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.fields-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 300px;
+    align-items: end;
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.table-cage {
+    display: flex;
+    justify-content: center;
+}
+
+.sorting-container {
+    width: 300px;
+    padding: 20px;
+}
