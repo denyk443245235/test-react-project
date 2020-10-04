@@ -39,7 +39,7 @@ export default (state = (list ? list : []), { type, name, index, sorting,  buyin
 
     case DELETE_ENTRY_FROM_LIST:
       newList.splice(index,1);
-      saveNewList(state);
+      saveNewList(newList);
       return newList;
 
     case CHANGE_BUYING_STATE:
